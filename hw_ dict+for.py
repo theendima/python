@@ -5,4 +5,11 @@ user = {
     "job": "engineer"
 }
 for key, value in user.items():
-    print(f"{key}: {value}")
+    if isinstance(value, str): # isinstance(значение, тип) используется для проверки типа значения
+        print(f"{key}: {value}")
+
+#for key, value in user.items():
+#    print(f"{key} -> {value}")
+
+
+
